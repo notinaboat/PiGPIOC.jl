@@ -1,0 +1,4 @@
+name = "PiGPIOC"
+uuid = "30a511cb-78f8-4457-8440-9b2c99933694"
+authors = ["notinaboat <notinaboat@icloud.com>"]
+version = "0.1.0"
