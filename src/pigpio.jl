@@ -398,10 +398,6 @@ function gpioRunScript(script_id, numPar, param)
     ccall((:gpioRunScript, pigpio), Cint, (UInt32, UInt32, Ptr{UInt32}), script_id, numPar, param)
 end
 
-function gpioRunScript(script_id, numPar, param)
-    ccall((:gpioRunScript, pigpio), Cint, (UInt32, UInt32, Ptr{UInt32}), script_id, numPar, param)
-end
-
 function gpioUpdateScript(script_id, numPar, param)
     ccall((:gpioUpdateScript, pigpio), Cint, (UInt32, UInt32, Ptr{UInt32}), script_id, numPar, param)
 end
