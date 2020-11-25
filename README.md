@@ -14,5 +14,8 @@ See [`src/generate.jl`](src/generate.jl).
 -- uses the [`pigpiod`](http://abyz.me.uk/rpi/pigpio/pigpiod.html)
 daemon interface.
 
+* [notinaboat/PiGPIOMEM.jl](https://github.com/notinaboat/PiGPIOMEM.jl)
+-- uses `/dev/gpiomem`, tries to minimise pin access overhead.
+
 * [ronisbr/BaremetalPi.jl](https://github.com/ronisbr/BaremetalPi.jl)
 -- uses `/dev/gpiomem`, `/dev/spidevX.X`, `/dev/i2c-X` etc.
